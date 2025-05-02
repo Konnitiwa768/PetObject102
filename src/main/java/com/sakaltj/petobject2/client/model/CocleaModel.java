@@ -1,4 +1,4 @@
-package com.sakalti.petobject2.client.model;
+package com.sakaltj.petobject2.client.model;
 
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.entity.model.SinglePartEntityModel;
