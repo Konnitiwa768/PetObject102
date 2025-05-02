@@ -1,7 +1,7 @@
 package com.sakalti.petobject2;
 
 import com.sakalti.petobject2.entity.CocleaEntity;
-import com.sakalti.petobject2.entity.NordnetiaEntity;
+import com.sakalti.petobject2.entity.NordiaEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.util.Identifier;
@@ -10,7 +10,7 @@ import net.minecraft.world.World;
 
 public class EntityRegistry {
 
-    public static final EntityType<NordnetiaEntity> NORDENTIA = register("nordnetia", EntityType.Builder.create(NordnetiaEntity::new, SpawnGroup.MONSTER).dimensions(EntityDimensions.fixed(16, 4)).build("nordnetia"));
+    public static final EntityType<NordiaEntity> NORDIA = register("nordia", EntityType.Builder.create(NordiaEntity::new, SpawnGroup.MONSTER).dimensions(EntityDimensions.fixed(16, 4)).build("nordia"));
     public static final EntityType<CocleaEntity> COCLEA = register("coclea", EntityType.Builder.create(CocleaEntity::new, SpawnGroup.CREATURE).dimensions(EntityDimensions.fixed(16, 2)).build("coclea"));
 
     private static <T extends Entity> EntityType<T> register(String name, EntityType<T> type) {
