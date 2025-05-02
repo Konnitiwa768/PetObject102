@@ -1,6 +1,6 @@
-package com.sakalti.petobject2.client.model;
+package com.sakaltj.petobject2.client.model;
 
-import com.sakalti.petobject2.entity.NordiaEntity;
+import com.sakaltj.petobject2.entity.NordiaEntity;
 import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.model.Model;
 import net.minecraft.client.model.ModelTransform;
@@ -30,7 +30,7 @@ public class NordiaModel extends EntityModel<NordiaEntity> {
 
         // 取っ手: 2x2x2（上部に中央寄せ）
         root.addChild("handle", ModelPartBuilder.create()
-            .uv(0, 20).cuboid(-1.0F, -6.0F, -1.0F, 2.0F, 2.0F, 2.0F),
+            .uv(0, 20).cuboid(-8.0F, -16.0F, -8.0F, 2.0F, 2.0F, 2.0F),
             ModelTransform.pivot(0.0F, 24.0F, 0.0F));
 
         return TexturedModelData.of(modelData, 64, 32);
