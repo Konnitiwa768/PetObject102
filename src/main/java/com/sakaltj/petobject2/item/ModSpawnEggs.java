@@ -1,4 +1,4 @@
-package com.sakalti.petobject2.item;
+package com.sakaltj.petobject2.item;
 
 import com.sakalti.petobject2.EntityRegistry;
 import net.minecraft.item.Item;
