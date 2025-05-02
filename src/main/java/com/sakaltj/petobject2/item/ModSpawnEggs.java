@@ -1,6 +1,6 @@
-package com.sakalti.petobject2;
+package com.sakalti.petobject2.item;
 
-import com.sakalti.petobject2.entity.EntityRegistry;
+import com.sakalti.petobject2.EntityRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.util.Identifier;
