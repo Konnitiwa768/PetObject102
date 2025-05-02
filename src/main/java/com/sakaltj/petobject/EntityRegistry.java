@@ -1,4 +1,5 @@
-package:com.sakaltj.petobject
+package com.sakaltj.petobject2
+
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.util.Identifier;
