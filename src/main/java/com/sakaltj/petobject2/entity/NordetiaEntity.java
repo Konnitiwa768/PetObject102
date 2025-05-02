@@ -1,4 +1,4 @@
-package com.sakalti.petobject2.entity;
+package com.sakaltj.petobject2.entity;
 
 import net.minecraft.entity.*;
 import net.minecraft.entity.attribute.*;
@@ -13,12 +13,12 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.math.*;
 import net.minecraft.world.World;
 
-public class NordetiaEntity extends TameableEntity {
+public class NordiaEntity extends TameableEntity {
     private int attackCount = 0; // 連続攻撃回数
     private long lastAttackTime = 0; // 最後の攻撃時間
     private boolean isStunned = false; // スタン状態
 
-    protected NordetiaEntity(EntityType<? extends TameableEntity> type, World world) {
+    protected NordiaEntity(EntityType<? extends TameableEntity> type, World world) {
         super(type, world);
     }
 
