@@ -1,4 +1,4 @@
-package com.sakalti.petobject2.client.render;
+package com.sakaltj.petobject2.client.render;
 
 import com.sakalti.petobject2.client.model.NordiaModel;
 import com.sakalti.petobject2.entity.NordiaEntity;
