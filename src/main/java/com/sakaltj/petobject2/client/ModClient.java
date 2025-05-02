@@ -1,4 +1,4 @@
-package com.sakalti.petobject2.client;
+package com.sakaltj.petobject2.client;
 
 import com.sakalti.petobject2.client.model.CocleaModel;
 import com.sakalti.petobject2.client.renderer.CocleaRenderer;
