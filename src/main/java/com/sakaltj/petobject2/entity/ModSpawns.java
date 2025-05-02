@@ -1,4 +1,4 @@
-package com.sakalti.petobject2.entity;
+package com.sakaltj.petobject2.entity;
 
 import com.sakalti.petobject2.EntityRegistry;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
