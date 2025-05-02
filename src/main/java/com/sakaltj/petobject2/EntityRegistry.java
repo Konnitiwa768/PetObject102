@@ -1,4 +1,4 @@
-package com.sakalti.petobject2;
+package com.sakaltj.petobject2;
 
 import com.sakalti.petobject2.entity.CocleaEntity;
 import com.sakalti.petobject2.entity.NordiaEntity;
