@@ -1,9 +1,9 @@
-package com.sakaltj.petobject;
+package com.sakaltj.petobject2;
 
 import com.sakalti.petobject.entity.EntityRegistry;
 import net.fabricmc.api.ModInitializer;
 
-public class PetObjectMod implements ModInitializer {
+public class PetObject2Mod implements ModInitializer {
     @Override
     public void onInitialize() {
         EntityRegistry.registerAttributes();
